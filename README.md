@@ -62,7 +62,3 @@ This code writes all zeros or all ones to the SRAM chip:
 3. **Data Analysis**: Run the respective Python script to analyze bit distribution, power-up state differences, or the impact of initial writes.
 
 
-
-```cpp
-// sram_read.ino
-// Place Arduino code here
