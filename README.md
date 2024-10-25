@@ -61,15 +61,7 @@ This code writes all zeros or all ones to the SRAM chip:
 2. **Data Extraction**: Save the hex data output from the Arduino serial monitor into a text file.
 3. **Data Analysis**: Run the respective Python script to analyze bit distribution, power-up state differences, or the impact of initial writes.
 
-## Results & Analysis
-1. **Task 1 Results**: Percentage of '1' bits in power-up data (Fig 1).
-2. **Task 2 Results**: Comparison between power-up states (Fig 2: without removing SRAM; Fig 3: after removing SRAM).
-3. **Task 3 Results**: Comparison after writing all zeros/ones (Fig 4: without turning off SRAM; Fig 5: after turning off SRAM).
 
-## Appendix
-
-### Arduino Code - Reading SRAM
-Code to read data from SRAM.
 
 ```cpp
 // sram_read.ino
